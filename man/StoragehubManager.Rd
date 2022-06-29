@@ -15,13 +15,7 @@ StoragehubManager
 \note{
 Main user class to be used with \pkg{d4storagehub4R}
 
-Deprecated, use \code{getWSItemID}
-
-Deprecated, use \code{listWSItems}
-
-Deprecated, use \code{listWSItemsByPath}
-
-Deprecated, use \code{searchWSItemID}
+Deprecated
 }
 \examples{
 \dontrun{
@@ -43,47 +37,50 @@ Emmanuel Blondel <emmanuel.blondel1@gmail.com>
 \section{Methods}{
 \subsection{Public methods}{
 \itemize{
-\item \href{#method-new}{\code{StoragehubManager$new()}}
-\item \href{#method-getToken}{\code{StoragehubManager$getToken()}}
-\item \href{#method-getUserProfile}{\code{StoragehubManager$getUserProfile()}}
-\item \href{#method-getUserWorkspace}{\code{StoragehubManager$getUserWorkspace()}}
-\item \href{#method-fetchWSEndpoint}{\code{StoragehubManager$fetchWSEndpoint()}}
-\item \href{#method-fetchUserProfile}{\code{StoragehubManager$fetchUserProfile()}}
-\item \href{#method-getWSRootID}{\code{StoragehubManager$getWSRootID()}}
-\item \href{#method-getWSItemID}{\code{StoragehubManager$getWSItemID()}}
-\item \href{#method-getWSElementID}{\code{StoragehubManager$getWSElementID()}}
-\item \href{#method-listWSItems}{\code{StoragehubManager$listWSItems()}}
-\item \href{#method-listWSElements}{\code{StoragehubManager$listWSElements()}}
-\item \href{#method-listWSItemsByPath}{\code{StoragehubManager$listWSItemsByPath()}}
-\item \href{#method-listWSElementsByPath}{\code{StoragehubManager$listWSElementsByPath()}}
-\item \href{#method-searchWSItemID}{\code{StoragehubManager$searchWSItemID()}}
-\item \href{#method-searchWSFolderID}{\code{StoragehubManager$searchWSFolderID()}}
-\item \href{#method-createFolder}{\code{StoragehubManager$createFolder()}}
-\item \href{#method-uploadFile}{\code{StoragehubManager$uploadFile()}}
-\item \href{#method-deleteItem}{\code{StoragehubManager$deleteItem()}}
-\item \href{#method-shareItem}{\code{StoragehubManager$shareItem()}}
-\item \href{#method-getPublicFileLink}{\code{StoragehubManager$getPublicFileLink()}}
-\item \href{#method-clone}{\code{StoragehubManager$clone()}}
+\item \href{#method-StoragehubManager-new}{\code{StoragehubManager$new()}}
+\item \href{#method-StoragehubManager-getToken}{\code{StoragehubManager$getToken()}}
+\item \href{#method-StoragehubManager-getUserProfile}{\code{StoragehubManager$getUserProfile()}}
+\item \href{#method-StoragehubManager-getUserWorkspace}{\code{StoragehubManager$getUserWorkspace()}}
+\item \href{#method-StoragehubManager-fetchWSEndpoint}{\code{StoragehubManager$fetchWSEndpoint()}}
+\item \href{#method-StoragehubManager-fetchUserProfile}{\code{StoragehubManager$fetchUserProfile()}}
+\item \href{#method-StoragehubManager-getWSRoot}{\code{StoragehubManager$getWSRoot()}}
+\item \href{#method-StoragehubManager-getWSRootID}{\code{StoragehubManager$getWSRootID()}}
+\item \href{#method-StoragehubManager-getWSItem}{\code{StoragehubManager$getWSItem()}}
+\item \href{#method-StoragehubManager-getWSItemID}{\code{StoragehubManager$getWSItemID()}}
+\item \href{#method-StoragehubManager-getWSVREFolder}{\code{StoragehubManager$getWSVREFolder()}}
+\item \href{#method-StoragehubManager-getWSVREFolderID}{\code{StoragehubManager$getWSVREFolderID()}}
+\item \href{#method-StoragehubManager-listWSItems}{\code{StoragehubManager$listWSItems()}}
+\item \href{#method-StoragehubManager-listWSItemsByPath}{\code{StoragehubManager$listWSItemsByPath()}}
+\item \href{#method-StoragehubManager-searchWSItem}{\code{StoragehubManager$searchWSItem()}}
+\item \href{#method-StoragehubManager-searchWSItemID}{\code{StoragehubManager$searchWSItemID()}}
+\item \href{#method-StoragehubManager-createFolder}{\code{StoragehubManager$createFolder()}}
+\item \href{#method-StoragehubManager-uploadFile}{\code{StoragehubManager$uploadFile()}}
+\item \href{#method-StoragehubManager-deleteItem}{\code{StoragehubManager$deleteItem()}}
+\item \href{#method-StoragehubManager-shareItem}{\code{StoragehubManager$shareItem()}}
+\item \href{#method-StoragehubManager-unshareItem}{\code{StoragehubManager$unshareItem()}}
+\item \href{#method-StoragehubManager-downloadItem}{\code{StoragehubManager$downloadItem()}}
+\item \href{#method-StoragehubManager-downloadItemByPath}{\code{StoragehubManager$downloadItemByPath()}}
+\item \href{#method-StoragehubManager-getPublicFileLink}{\code{StoragehubManager$getPublicFileLink()}}
+\item \href{#method-StoragehubManager-clone}{\code{StoragehubManager$clone()}}
 }
 }
-\if{html}{
-\out{<details ><summary>Inherited methods</summary>}
-\itemize{
-\item \out{<span class="pkg-link" data-pkg="d4storagehub4R" data-topic="d4storagehub4RLogger" data-id="ERROR">}\href{../../d4storagehub4R/html/d4storagehub4RLogger.html#method-ERROR}{\code{d4storagehub4R::d4storagehub4RLogger$ERROR()}}\out{</span>}
-\item \out{<span class="pkg-link" data-pkg="d4storagehub4R" data-topic="d4storagehub4RLogger" data-id="getClass">}\href{../../d4storagehub4R/html/d4storagehub4RLogger.html#method-getClass}{\code{d4storagehub4R::d4storagehub4RLogger$getClass()}}\out{</span>}
-\item \out{<span class="pkg-link" data-pkg="d4storagehub4R" data-topic="d4storagehub4RLogger" data-id="getClassName">}\href{../../d4storagehub4R/html/d4storagehub4RLogger.html#method-getClassName}{\code{d4storagehub4R::d4storagehub4RLogger$getClassName()}}\out{</span>}
-\item \out{<span class="pkg-link" data-pkg="d4storagehub4R" data-topic="d4storagehub4RLogger" data-id="INFO">}\href{../../d4storagehub4R/html/d4storagehub4RLogger.html#method-INFO}{\code{d4storagehub4R::d4storagehub4RLogger$INFO()}}\out{</span>}
-\item \out{<span class="pkg-link" data-pkg="d4storagehub4R" data-topic="d4storagehub4RLogger" data-id="logger">}\href{../../d4storagehub4R/html/d4storagehub4RLogger.html#method-logger}{\code{d4storagehub4R::d4storagehub4RLogger$logger()}}\out{</span>}
-\item \out{<span class="pkg-link" data-pkg="d4storagehub4R" data-topic="d4storagehub4RLogger" data-id="WARN">}\href{../../d4storagehub4R/html/d4storagehub4RLogger.html#method-WARN}{\code{d4storagehub4R::d4storagehub4RLogger$WARN()}}\out{</span>}
-}
-\out{</details>}
-}
+\if{html}{\out{
+<details><summary>Inherited methods</summary>
+<ul>
+<li><span class="pkg-link" data-pkg="d4storagehub4R" data-topic="d4storagehub4RLogger" data-id="ERROR"><a href='../../d4storagehub4R/html/d4storagehub4RLogger.html#method-d4storagehub4RLogger-ERROR'><code>d4storagehub4R::d4storagehub4RLogger$ERROR()</code></a></li>
+<li><span class="pkg-link" data-pkg="d4storagehub4R" data-topic="d4storagehub4RLogger" data-id="INFO"><a href='../../d4storagehub4R/html/d4storagehub4RLogger.html#method-d4storagehub4RLogger-INFO'><code>d4storagehub4R::d4storagehub4RLogger$INFO()</code></a></li>
+<li><span class="pkg-link" data-pkg="d4storagehub4R" data-topic="d4storagehub4RLogger" data-id="WARN"><a href='../../d4storagehub4R/html/d4storagehub4RLogger.html#method-d4storagehub4RLogger-WARN'><code>d4storagehub4R::d4storagehub4RLogger$WARN()</code></a></li>
+<li><span class="pkg-link" data-pkg="d4storagehub4R" data-topic="d4storagehub4RLogger" data-id="getClass"><a href='../../d4storagehub4R/html/d4storagehub4RLogger.html#method-d4storagehub4RLogger-getClass'><code>d4storagehub4R::d4storagehub4RLogger$getClass()</code></a></li>
+<li><span class="pkg-link" data-pkg="d4storagehub4R" data-topic="d4storagehub4RLogger" data-id="getClassName"><a href='../../d4storagehub4R/html/d4storagehub4RLogger.html#method-d4storagehub4RLogger-getClassName'><code>d4storagehub4R::d4storagehub4RLogger$getClassName()</code></a></li>
+<li><span class="pkg-link" data-pkg="d4storagehub4R" data-topic="d4storagehub4RLogger" data-id="logger"><a href='../../d4storagehub4R/html/d4storagehub4RLogger.html#method-d4storagehub4RLogger-logger'><code>d4storagehub4R::d4storagehub4RLogger$logger()</code></a></li>
+</ul>
+</details>
+}}
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-new"></a>}}
-\if{latex}{\out{\hypertarget{method-new}{}}}
+\if{html}{\out{<a id="method-StoragehubManager-new"></a>}}
+\if{latex}{\out{\hypertarget{method-StoragehubManager-new}{}}}
 \subsection{Method \code{new()}}{
-Method is used to instantiate the \link{StoragehubManager}. By default,
-the url is inherited through D4Science Icproxy service.
+Method is used to instantiate the \link{StoragehubManager}.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{StoragehubManager$new(
   token,
@@ -110,8 +107,8 @@ the D4science gcube token with \pkg{keyring} (Default value is 'env').}
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-getToken"></a>}}
-\if{latex}{\out{\hypertarget{method-getToken}{}}}
+\if{html}{\out{<a id="method-StoragehubManager-getToken"></a>}}
+\if{latex}{\out{\hypertarget{method-StoragehubManager-getToken}{}}}
 \subsection{Method \code{getToken()}}{
 Get token
 \subsection{Usage}{
@@ -123,8 +120,8 @@ the user access token
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-getUserProfile"></a>}}
-\if{latex}{\out{\hypertarget{method-getUserProfile}{}}}
+\if{html}{\out{<a id="method-StoragehubManager-getUserProfile"></a>}}
+\if{latex}{\out{\hypertarget{method-StoragehubManager-getUserProfile}{}}}
 \subsection{Method \code{getUserProfile()}}{
 Get user profile
 \subsection{Usage}{
@@ -136,8 +133,8 @@ the user profile
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-getUserWorkspace"></a>}}
-\if{latex}{\out{\hypertarget{method-getUserWorkspace}{}}}
+\if{html}{\out{<a id="method-StoragehubManager-getUserWorkspace"></a>}}
+\if{latex}{\out{\hypertarget{method-StoragehubManager-getUserWorkspace}{}}}
 \subsection{Method \code{getUserWorkspace()}}{
 Get user workspace
 \subsection{Usage}{
@@ -149,8 +146,8 @@ the user workspace root path
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-fetchWSEndpoint"></a>}}
-\if{latex}{\out{\hypertarget{method-fetchWSEndpoint}{}}}
+\if{html}{\out{<a id="method-StoragehubManager-fetchWSEndpoint"></a>}}
+\if{latex}{\out{\hypertarget{method-StoragehubManager-fetchWSEndpoint}{}}}
 \subsection{Method \code{fetchWSEndpoint()}}{
 Fetches the workspace endpoint from the D4Science ICProxy service
 \subsection{Usage}{
@@ -159,8 +156,8 @@ Fetches the workspace endpoint from the D4Science ICProxy service
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-fetchUserProfile"></a>}}
-\if{latex}{\out{\hypertarget{method-fetchUserProfile}{}}}
+\if{html}{\out{<a id="method-StoragehubManager-fetchUserProfile"></a>}}
+\if{latex}{\out{\hypertarget{method-StoragehubManager-fetchUserProfile}{}}}
 \subsection{Method \code{fetchUserProfile()}}{
 Fetches the user profile
 \subsection{Usage}{
@@ -169,8 +166,21 @@ Fetches the user profile
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-getWSRootID"></a>}}
-\if{latex}{\out{\hypertarget{method-getWSRootID}{}}}
+\if{html}{\out{<a id="method-StoragehubManager-getWSRoot"></a>}}
+\if{latex}{\out{\hypertarget{method-StoragehubManager-getWSRoot}{}}}
+\subsection{Method \code{getWSRoot()}}{
+Get workspace root
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{StoragehubManager$getWSRoot()}\if{html}{\out{</div>}}
+}
+
+\subsection{Returns}{
+the workspace root, as \code{list}
+}
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-StoragehubManager-getWSRootID"></a>}}
+\if{latex}{\out{\hypertarget{method-StoragehubManager-getWSRootID}{}}}
 \subsection{Method \code{getWSRootID()}}{
 Get workspace root ID
 \subsection{Usage}{
@@ -182,12 +192,16 @@ the workspace root ID, as \code{character}
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-getWSItemID"></a>}}
-\if{latex}{\out{\hypertarget{method-getWSItemID}{}}}
-\subsection{Method \code{getWSItemID()}}{
-Get workspace item ID given a \code{folderPath} in a parent folder
+\if{html}{\out{<a id="method-StoragehubManager-getWSItem"></a>}}
+\if{latex}{\out{\hypertarget{method-StoragehubManager-getWSItem}{}}}
+\subsection{Method \code{getWSItem()}}{
+Get workspace item given a \code{itemPath} in a parent folder
 \subsection{Usage}{
-\if{html}{\out{<div class="r">}}\preformatted{StoragehubManager$getWSItemID(parentFolderID = NULL, folderPath)}\if{html}{\out{</div>}}
+\if{html}{\out{<div class="r">}}\preformatted{StoragehubManager$getWSItem(
+  parentFolderID = NULL,
+  itemPath,
+  showHidden = FALSE
+)}\if{html}{\out{</div>}}
 }
 
 \subsection{Arguments}{
@@ -195,7 +209,37 @@ Get workspace item ID given a \code{folderPath} in a parent folder
 \describe{
 \item{\code{parentFolderID}}{parent folder ID}
 
-\item{\code{folderPath}}{folder path}
+\item{\code{itemPath}}{item path}
+
+\item{\code{showHidden}}{show hidden files}
+}
+\if{html}{\out{</div>}}
+}
+\subsection{Returns}{
+the workspace item, \code{NULL} if no workspace item existing
+}
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-StoragehubManager-getWSItemID"></a>}}
+\if{latex}{\out{\hypertarget{method-StoragehubManager-getWSItemID}{}}}
+\subsection{Method \code{getWSItemID()}}{
+Get workspace item ID given a \code{itemPath} in a parent folder
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{StoragehubManager$getWSItemID(
+  parentFolderID = NULL,
+  itemPath,
+  showHidden = FALSE
+)}\if{html}{\out{</div>}}
+}
+
+\subsection{Arguments}{
+\if{html}{\out{<div class="arguments">}}
+\describe{
+\item{\code{parentFolderID}}{parent folder ID}
+
+\item{\code{itemPath}}{item path}
+
+\item{\code{showHidden}}{show hidden files}
 }
 \if{html}{\out{</div>}}
 }
@@ -204,40 +248,46 @@ the workspace item ID, \code{NULL} if no workspace item existing
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-getWSElementID"></a>}}
-\if{latex}{\out{\hypertarget{method-getWSElementID}{}}}
-\subsection{Method \code{getWSElementID()}}{
-Get workspace element ID given a \code{folderPath} in a parent folder
+\if{html}{\out{<a id="method-StoragehubManager-getWSVREFolder"></a>}}
+\if{latex}{\out{\hypertarget{method-StoragehubManager-getWSVREFolder}{}}}
+\subsection{Method \code{getWSVREFolder()}}{
+Get VRE Folder
 \subsection{Usage}{
-\if{html}{\out{<div class="r">}}\preformatted{StoragehubManager$getWSElementID(parentFolderID = NULL, folderPath)}\if{html}{\out{</div>}}
+\if{html}{\out{<div class="r">}}\preformatted{StoragehubManager$getWSVREFolder()}\if{html}{\out{</div>}}
 }
 
-\subsection{Arguments}{
-\if{html}{\out{<div class="arguments">}}
-\describe{
-\item{\code{parentFolderID}}{parent folder ID}
-
-\item{\code{folderPath}}{folder path}
-}
-\if{html}{\out{</div>}}
-}
 \subsection{Returns}{
-the workspace element ID, \code{NULL} if no workspace item existing
+the VRE folder, as \code{list}
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-listWSItems"></a>}}
-\if{latex}{\out{\hypertarget{method-listWSItems}{}}}
+\if{html}{\out{<a id="method-StoragehubManager-getWSVREFolderID"></a>}}
+\if{latex}{\out{\hypertarget{method-StoragehubManager-getWSVREFolderID}{}}}
+\subsection{Method \code{getWSVREFolderID()}}{
+Get VRE Folder ID
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{StoragehubManager$getWSVREFolderID()}\if{html}{\out{</div>}}
+}
+
+\subsection{Returns}{
+the VRE folder ID, as \code{character}
+}
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-StoragehubManager-listWSItems"></a>}}
+\if{latex}{\out{\hypertarget{method-StoragehubManager-listWSItems}{}}}
 \subsection{Method \code{listWSItems()}}{
 Lists workspace items given a parentFolder ID
 \subsection{Usage}{
-\if{html}{\out{<div class="r">}}\preformatted{StoragehubManager$listWSItems(parentFolderID = NULL)}\if{html}{\out{</div>}}
+\if{html}{\out{<div class="r">}}\preformatted{StoragehubManager$listWSItems(parentFolderID = NULL, showHidden = FALSE)}\if{html}{\out{</div>}}
 }
 
 \subsection{Arguments}{
 \if{html}{\out{<div class="arguments">}}
 \describe{
 \item{\code{parentFolderID}}{parent folder ID}
+
+\item{\code{showHidden}}{show hidden files}
 }
 \if{html}{\out{</div>}}
 }
@@ -246,58 +296,20 @@ an object of class \code{data.frame}
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-listWSElements"></a>}}
-\if{latex}{\out{\hypertarget{method-listWSElements}{}}}
-\subsection{Method \code{listWSElements()}}{
-Lists workspace elements given a parentFolder ID
-\subsection{Usage}{
-\if{html}{\out{<div class="r">}}\preformatted{StoragehubManager$listWSElements(parentFolderID = NULL)}\if{html}{\out{</div>}}
-}
-
-\subsection{Arguments}{
-\if{html}{\out{<div class="arguments">}}
-\describe{
-\item{\code{parentFolderID}}{parent folder ID}
-}
-\if{html}{\out{</div>}}
-}
-\subsection{Returns}{
-an object of class \code{data.frame}
-}
-}
-\if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-listWSItemsByPath"></a>}}
-\if{latex}{\out{\hypertarget{method-listWSItemsByPath}{}}}
+\if{html}{\out{<a id="method-StoragehubManager-listWSItemsByPath"></a>}}
+\if{latex}{\out{\hypertarget{method-StoragehubManager-listWSItemsByPath}{}}}
 \subsection{Method \code{listWSItemsByPath()}}{
 Lists workspace items given a folder path
 \subsection{Usage}{
-\if{html}{\out{<div class="r">}}\preformatted{StoragehubManager$listWSItemsByPath(folderPath)}\if{html}{\out{</div>}}
+\if{html}{\out{<div class="r">}}\preformatted{StoragehubManager$listWSItemsByPath(folderPath, showHidden = FALSE)}\if{html}{\out{</div>}}
 }
 
 \subsection{Arguments}{
 \if{html}{\out{<div class="arguments">}}
 \describe{
 \item{\code{folderPath}}{folder path where to list items}
-}
-\if{html}{\out{</div>}}
-}
-\subsection{Returns}{
-an object of class \code{data.frame}
-}
-}
-\if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-listWSElementsByPath"></a>}}
-\if{latex}{\out{\hypertarget{method-listWSElementsByPath}{}}}
-\subsection{Method \code{listWSElementsByPath()}}{
-Lists workspace elements given a folder path
-\subsection{Usage}{
-\if{html}{\out{<div class="r">}}\preformatted{StoragehubManager$listWSElementsByPath(folderPath)}\if{html}{\out{</div>}}
-}
 
-\subsection{Arguments}{
-\if{html}{\out{<div class="arguments">}}
-\describe{
-\item{\code{folderPath}}{folder path where to list elements}
+\item{\code{showHidden}}{show hidden files}
 }
 \if{html}{\out{</div>}}
 }
@@ -306,56 +318,74 @@ an object of class \code{data.frame}
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-searchWSItemID"></a>}}
-\if{latex}{\out{\hypertarget{method-searchWSItemID}{}}}
-\subsection{Method \code{searchWSItemID()}}{
-Searches for a workspace item ID given a item path
+\if{html}{\out{<a id="method-StoragehubManager-searchWSItem"></a>}}
+\if{latex}{\out{\hypertarget{method-StoragehubManager-searchWSItem}{}}}
+\subsection{Method \code{searchWSItem()}}{
+Searches for a workspace item given a item path
 \subsection{Usage}{
-\if{html}{\out{<div class="r">}}\preformatted{StoragehubManager$searchWSItemID(itemPath)}\if{html}{\out{</div>}}
+\if{html}{\out{<div class="r">}}\preformatted{StoragehubManager$searchWSItem(
+  itemPath,
+  includeVreFolder = TRUE,
+  showHidden = FALSE
+)}\if{html}{\out{</div>}}
 }
 
 \subsection{Arguments}{
 \if{html}{\out{<div class="arguments">}}
 \describe{
 \item{\code{itemPath}}{path of the item}
+
+\item{\code{includeVreFolder}}{search also in VRE folder}
+
+\item{\code{showHidden}}{show hidden files}
 }
 \if{html}{\out{</div>}}
 }
 \subsection{Returns}{
-the item ID, \code{NULL} if nothing found
+the item, \code{NULL} if nothing found
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-searchWSFolderID"></a>}}
-\if{latex}{\out{\hypertarget{method-searchWSFolderID}{}}}
-\subsection{Method \code{searchWSFolderID()}}{
-Searches for a workspace element ID given a item path
+\if{html}{\out{<a id="method-StoragehubManager-searchWSItemID"></a>}}
+\if{latex}{\out{\hypertarget{method-StoragehubManager-searchWSItemID}{}}}
+\subsection{Method \code{searchWSItemID()}}{
+Searches for a workspace item ID given a item path
 \subsection{Usage}{
-\if{html}{\out{<div class="r">}}\preformatted{StoragehubManager$searchWSFolderID(folderPath)}\if{html}{\out{</div>}}
+\if{html}{\out{<div class="r">}}\preformatted{StoragehubManager$searchWSItemID(
+  itemPath,
+  includeVreFolder = TRUE,
+  showHidden = FALSE
+)}\if{html}{\out{</div>}}
 }
 
 \subsection{Arguments}{
 \if{html}{\out{<div class="arguments">}}
 \describe{
-\item{\code{folderPath}}{path of the element}
+\item{\code{itemPath}}{path of the item}
+
+\item{\code{includeVreFolder}}{search also in VRE folder}
+
+\item{\code{showHidden}}{show hidden files}
 }
 \if{html}{\out{</div>}}
 }
 \subsection{Returns}{
-the item ID, \code{NULL} if nothing found
+the item, \code{NULL} if nothing found
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-createFolder"></a>}}
-\if{latex}{\out{\hypertarget{method-createFolder}{}}}
+\if{html}{\out{<a id="method-StoragehubManager-createFolder"></a>}}
+\if{latex}{\out{\hypertarget{method-StoragehubManager-createFolder}{}}}
 \subsection{Method \code{createFolder()}}{
 Creates a folder, given a folder path, a folder name/description. By default \code{recursive = TRUE} meaning 
    that a folder path matching nested folders will trigger all nested folders. Setting \code{recursive = FALSE}, the
    folder creation will work only if the folder path matches an existing folder. The \code{hidden} (default 
-   \code{FALSE}) argument can be used to set hidden folders on the workspace.
+   \code{FALSE}) argument can be used to set hidden folders on the workspace. Using \code{folderID}, \code{recursive} will be
+   set to \code{FALSE}.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{StoragehubManager$createFolder(
   folderPath = NULL,
+  folderID = NULL,
   name,
   description = "",
   hidden = FALSE,
@@ -367,6 +397,8 @@ Creates a folder, given a folder path, a folder name/description. By default \co
 \if{html}{\out{<div class="arguments">}}
 \describe{
 \item{\code{folderPath}}{parent folder path where to create the folder}
+
+\item{\code{folderID}}{parent folder ID where to create the folder}
 
 \item{\code{name}}{name of the folder}
 
@@ -383,14 +415,15 @@ the ID of the created folder
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-uploadFile"></a>}}
-\if{latex}{\out{\hypertarget{method-uploadFile}{}}}
+\if{html}{\out{<a id="method-StoragehubManager-uploadFile"></a>}}
+\if{latex}{\out{\hypertarget{method-StoragehubManager-uploadFile}{}}}
 \subsection{Method \code{uploadFile()}}{
 Uploads a file to a folder (given a folder path). The argument \code{description} can be used to further describe the
    file to upload. The argument \code{archive} (default = FALSE) indicates the type of item (FILE or ARCHIVE) to be uploaded.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{StoragehubManager$uploadFile(
   folderPath = NULL,
+  folderID = NULL,
   file,
   description = basename(file),
   archive = FALSE
@@ -401,6 +434,8 @@ Uploads a file to a folder (given a folder path). The argument \code{description
 \if{html}{\out{<div class="arguments">}}
 \describe{
 \item{\code{folderPath}}{folder path where to upload the file}
+
+\item{\code{folderID}}{folder ID where to upload the file}
 
 \item{\code{file}}{file to upload}
 
@@ -415,8 +450,8 @@ the ID of the uploaded file
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-deleteItem"></a>}}
-\if{latex}{\out{\hypertarget{method-deleteItem}{}}}
+\if{html}{\out{<a id="method-StoragehubManager-deleteItem"></a>}}
+\if{latex}{\out{\hypertarget{method-StoragehubManager-deleteItem}{}}}
 \subsection{Method \code{deleteItem()}}{
 Deletes an item given its path on the workspace
 \subsection{Usage}{
@@ -437,8 +472,8 @@ Deletes an item given its path on the workspace
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-shareItem"></a>}}
-\if{latex}{\out{\hypertarget{method-shareItem}{}}}
+\if{html}{\out{<a id="method-StoragehubManager-shareItem"></a>}}
+\if{latex}{\out{\hypertarget{method-StoragehubManager-shareItem}{}}}
 \subsection{Method \code{shareItem()}}{
 Shares an item with users
 \subsection{Usage}{
@@ -461,8 +496,68 @@ Shares an item with users
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-getPublicFileLink"></a>}}
-\if{latex}{\out{\hypertarget{method-getPublicFileLink}{}}}
+\if{html}{\out{<a id="method-StoragehubManager-unshareItem"></a>}}
+\if{latex}{\out{\hypertarget{method-StoragehubManager-unshareItem}{}}}
+\subsection{Method \code{unshareItem()}}{
+unshare an item
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{StoragehubManager$unshareItem(itemPath, users)}\if{html}{\out{</div>}}
+}
+
+\subsection{Arguments}{
+\if{html}{\out{<div class="arguments">}}
+\describe{
+\item{\code{itemPath}}{item path}
+
+\item{\code{users}}{users}
+}
+\if{html}{\out{</div>}}
+}
+\subsection{Returns}{
+\code{TRUE} if unshared, \code{FALSE} otherwise
+}
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-StoragehubManager-downloadItem"></a>}}
+\if{latex}{\out{\hypertarget{method-StoragehubManager-downloadItem}{}}}
+\subsection{Method \code{downloadItem()}}{
+Download item
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{StoragehubManager$downloadItem(item = NULL, wd = NULL)}\if{html}{\out{</div>}}
+}
+
+\subsection{Arguments}{
+\if{html}{\out{<div class="arguments">}}
+\describe{
+\item{\code{item}}{item}
+
+\item{\code{wd}}{working directory where to download the item}
+}
+\if{html}{\out{</div>}}
+}
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-StoragehubManager-downloadItemByPath"></a>}}
+\if{latex}{\out{\hypertarget{method-StoragehubManager-downloadItemByPath}{}}}
+\subsection{Method \code{downloadItemByPath()}}{
+Download item by path
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{StoragehubManager$downloadItemByPath(path, wd = NULL)}\if{html}{\out{</div>}}
+}
+
+\subsection{Arguments}{
+\if{html}{\out{<div class="arguments">}}
+\describe{
+\item{\code{path}}{path}
+
+\item{\code{wd}}{working directory where to download the item}
+}
+\if{html}{\out{</div>}}
+}
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-StoragehubManager-getPublicFileLink"></a>}}
+\if{latex}{\out{\hypertarget{method-StoragehubManager-getPublicFileLink}{}}}
 \subsection{Method \code{getPublicFileLink()}}{
 Get public file link
 \subsection{Usage}{
@@ -481,8 +576,8 @@ the public file URL
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-clone"></a>}}
-\if{latex}{\out{\hypertarget{method-clone}{}}}
+\if{html}{\out{<a id="method-StoragehubManager-clone"></a>}}
+\if{latex}{\out{\hypertarget{method-StoragehubManager-clone}{}}}
 \subsection{Method \code{clone()}}{
 The objects of this class are cloneable with this method.
 \subsection{Usage}{
