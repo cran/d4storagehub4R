@@ -1,6 +1,6 @@
 Package: d4storagehub4R
-Version: 0.4-1
-Date: 2022-08-19
+Version: 0.4-2
+Date: 2022-11-29
 Title: Interface to 'D4Science' 'StorageHub' API
 Authors@R: c(
   person("Emmanuel", "Blondel", role = c("aut", "cre"), email = "emmanuel.blondel1@gmail.com", comment = c(ORCID = "0000-0002-5870-5762")))
@@ -19,7 +19,7 @@ LazyLoad: yes
 RoxygenNote: 7.2.1
 Encoding: UTF-8
 NeedsCompilation: no
-Packaged: 2022-08-19 10:13:36 UTC; manub
+Packaged: 2022-11-29 22:13:20 UTC; manub
 Author: Emmanuel Blondel [aut, cre] (<https://orcid.org/0000-0002-5870-5762>)
 Repository: CRAN
-Date/Publication: 2022-08-19 10:50:02 UTC
+Date/Publication: 2022-11-29 22:30:02 UTC
