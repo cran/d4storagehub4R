@@ -1,12 +1,12 @@
-79bb2e373e4f1b474d8b6a751033a154 *DESCRIPTION
+6c40b557f6a0ccb4a2e6b2a477296ce2 *DESCRIPTION
 449ec23c6b37f5f3828c639b514f17b2 *LICENSE
 77e92b9e8c7f3d0e5f8f602b21449150 *NAMESPACE
-01cd72dd206a85d6eed7cd469747435b *NEWS.md
-8402188fcf5119145b7b2c14039452c7 *R/StoragehubManager.R
+348fc53c636e1f2aff47734e6b41e455 *NEWS.md
+714c164974382eaad3ad2e5c8586a035 *R/StoragehubManager.R
 9ba7a1add4f6f536d65f7d07601a10a1 *R/d4storagehub4R.R
 fd7b818c06d34fc64a4d602424eed202 *R/d4storagehub4R_logger.R
 fc78f738fd31033b4cc31ce91a39b1e6 *R/profile.R
-e9a6af56de0fb3bed8829e401bf49127 *README.md
+84de09595a3a2af13fccd4010ff7d355 *README.md
 6bf6262153e298a7ed21b57a8ee6da3e *man/StoragehubManager.Rd
 cef628a14c1ad164b4c13fcecfec2e31 *man/d4storagehub4R.Rd
 4acdaceac33b3464f823129f7dd83ed9 *man/d4storagehub4RLogger.Rd
